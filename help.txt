@@ -1,0 +1,12 @@
+git init
+ git remote add origin https://github.com/YOUR_USERNAME/asteroid_project.git
+npm init -y 
+// before 18 npm install node-fetch
+
+touch .gitignore
+
+echo "node_modules/" >> .gitignore
+git checkout -b feature/fetching_data 
+git checkout -b feature/analyze_stats 
+touch asteroidFetcher.js
+
