@@ -1,6 +1,6 @@
-const fetch = require('node-fetch');
+// import fetch from 'node-fetch';
 
-const API_KEY = 'YOUR_NASA_API_KEY'; // Replace with your actual NASA API Key
+const API_KEY = ''; // Replace with your actual NASA API Key
 
 async function fetchAsteroidData() {
     try {
